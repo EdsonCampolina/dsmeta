@@ -1,5 +1,5 @@
-import logo from '../../assets/img/logo.svg'
-import './styles.css'
+import logo from '../../assets/img/logo.svg';
+import './styles.css';
 
 function Header() {
     return (
@@ -8,12 +8,14 @@ function Header() {
                 <img src={logo} alt="DSMeta" />
                 <h1>DSMeta</h1>
                 <p>
-                    Desenvolvido por
-                    <a href="https://www.instagram.com/devsuperior.ig">@devsuperior.ig</a>
+                    Desenvolvido por 
+                    <a href="https://www.instagram.com/edson_campolinas/"> @edson_campolinas </a>
+                    durante Semana Spring React 9.0 da 
+                    <a href="https://www.instagram.com/devsuperior.ig"> @devsuperior.ig </a>
                 </p>
             </div>
         </header>
     );
 }
 
-export default Header
+export default Header;
